@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./src/css/styles.css">
+  <script src="./src/js/main.js"></script>
+</head>
+<body>
+  <div class="centered2">
+    <h2>Turno de: 
+      <input type="text" class="playerTurn" id="turn" readonly>
+    </h2>
+  </div>
+  <div class="container">
+    <div>
+      <label for="player">Jugador 1 (X)</label>
+      <input type="text" class="player" id="player1" value="Jugador X">
+    </div>
+    <div>
+      <label for="player">Jugador 2 (O)</label>
+      <input type="text" class="player" id="player2" value="Jugador O">
+    </div>
+  </div>
+  <div class="container">
+    <div class="box" data-row="0" data-col="0"></div>
+    <div class="box" data-row="0" data-col="1"></div>
+    <div class="box" data-row="0" data-col="2"></div>
+  </div>
+  <div class="container">
+    <div class="box" data-row="1" data-col="0"></div>
+    <div class="box" data-row="1" data-col="1"></div>
+    <div class="box" data-row="1" data-col="2"></div>
+  </div>
+  <div class="container">
+    <div class="box" data-row="2" data-col="0"></div>
+    <div class="box" data-row="2" data-col="1"></div>
+    <div class="box" data-row="2" data-col="2"></div>
+  </div>
+
+  <div class="centered">
+    <button class="button" id="reload">REINICIAR</button>
+  </div>
+</body>
+</html>
